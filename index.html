@@ -7,7 +7,86 @@
 </head>
 <body>
 
-   <script src="3variab.js"></script>
+   <!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Hitung Total Harga</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      min-height:100vh;
+      margin:0;
+      background: linear-gradient(135deg,#f8fafc,#eef2ff);
+    }
+    .card {
+      background:#fff;
+      padding:1.6rem;
+      border-radius:10px;
+      box-shadow:0 8px 20px rgba(10,20,50,0.06);
+      width:320px;
+    }
+    label { display:block; margin-top:0.6rem; font-size:0.9rem; }
+    input[type="text"], input[type="number"] {
+      width:100%;
+      padding:0.5rem;
+      margin-top:0.25rem;
+      border-radius:6px;
+      border:1px solid #e6e9ef;
+      box-sizing:border-box;
+    }
+    button {
+      margin-top:1rem;
+      width:100%;
+      padding:0.6rem;
+      border-radius:8px;
+      border:none;
+      cursor:pointer;
+      background:#2563eb;
+      color:#fff;
+      font-weight:600;
+    }
+    .result {
+      margin-top:1rem;
+      padding:0.6rem;
+      background:#f1f5f9;
+      border-radius:6px;
+      font-weight:600;
+      text-align:center;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>Hitung Total Harga</h2>
+
+    <label for="nama1">Nama Produk 1</label>
+    <input id="nama1" type="text" value="Laptop" />
+
+    <label for="harga1">Harga Produk 1 (Rp)</label>
+    <input id="harga1" type="number" value="7500000" />
+
+    <label for="nama2">Nama Produk 2</label>
+    <input id="nama2" type="text" value="Mouse" />
+
+    <label for="harga2">Harga Produk 2 (Rp)</label>
+    <input id="harga2" type="number" value="250000" />
+
+    <button id="calcBtn">Hitung Total</button>
+
+    <div id="output" class="result" aria-live="polite">
+      Total harga akan muncul di sini.
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
     
 </body>
 </html>
