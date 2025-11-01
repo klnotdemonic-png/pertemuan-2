@@ -22,3 +22,19 @@ console.log("Hasil Modulus:", hasilModulus);
 
 console.log("Apakah a lebih besar dari b?", lebihBesar);
 console.log("Apakah a sama dengan b?", samaDengan);
+
+//===================================
+let x = 8;
+let y = 3;
+
+
+console.log("Hasil Penjumlahan (x + y):", x + y);
+console.log("Hasil Pengurangan (x - y):", x - y);
+console.log("Hasil Perkalian (x * y):", x * y);
+console.log("Hasil Pembagian (x / y):", x / y);
+console.log("Sisa Bagi (x % y):", x % y);
+
+console.log("Apakah x lebih besar dari y?", x > y);
+console.log("Apakah x lebih kecil dari y?", x < y);
+console.log("Apakah x sama dengan y?", x === y);
+console.log("Apakah x tidak sama dengan y?", x !== y);
